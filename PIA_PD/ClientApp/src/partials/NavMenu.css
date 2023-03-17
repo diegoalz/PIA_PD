@@ -1,0 +1,42 @@
+﻿a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+html {
+  font-size: 14px;
+
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+
+.navbar-dark .navbar-nav .nav-link {
+  color: white
+
+}
+
+.navh:hover {
+  color: #4CAF50 !important;
+
+}
+.navhred:hover {
+  color: red !important;
+
+}
+
+
+.navbar {
+  background: #212529;
+	font-family: sans-serif;
+  font-size: 1rem;
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+

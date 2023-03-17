@@ -1,0 +1,117 @@
+/* Provide sufficient contrast against white background */
+@import '~bootstrap-icons/font/bootstrap-icons';
+
+.maincontainer-1{
+	background-color: #00ABB3;
+	height: 100vh;
+}
+.maincontainer-2{
+	background-color: #9ED8DB;
+	height: 100vh;
+}
+.maincontainer-3{
+	background-color: #266DD3;
+	height: 100vh;
+}
+.maincontainer-0{
+	background-color: #22252a;
+	height: 100vh;
+	color: white;
+}
+
+.maincontainer-0 h1 {
+	font-size: 48px;
+	font-weight: 800;
+
+}
+
+.maincontainer-0 p {
+	font-size: 18px;
+
+}
+
+
+.ico {
+	width: 40px;
+	height: 40px;
+ }
+
+.ico2 {
+	width: 400px;
+	height: 400px;
+ }
+
+a {
+  color: #0366d6;
+}
+
+code {
+  color: #E01A76;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+
+
+
+
+/*TABLA */
+
+.table > :not(:first-child) {
+  border-top: 0;
+}
+
+.table-title {        
+	padding-bottom: 15px;
+	background: #435d7d;
+	color: #fff;
+	padding: 16px 30px;
+	min-width: 100%;
+	margin: -20px -25px 0px;
+	border-radius: 3px 3px 0 0;
+}
+
+.table-container {
+	min-width: 100%;
+	margin: 0px -25px 0px;
+}
+
+.table-title h2 {
+	margin: 5px 0 0;
+	font-size: 24px;
+}
+
+.table-title .btn {
+	color: #fff;
+	float: right;
+	font-size: 13px;
+	border: none;
+	min-width: 50px;
+	border-radius: 2px;
+	border: none;
+	outline: none !important;
+	margin-left: 10px;
+}
+
+.table-wrapper {
+background: #fff;
+padding: 20px 25px;
+border-radius: 3px;
+min-width: 1000px;
+box-shadow: 0 1px 1px rgba(0,0,0,.05);
+}
+
+.table-title .add-new {
+    float: right;
+    height: 30px;
+    font-weight: bold;
+    font-size: 12px;
+    text-shadow: none;
+    min-width: 100px;
+    border-radius: 50px;
+    line-height: 13px;
+}
